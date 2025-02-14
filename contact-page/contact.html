@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact WMS Product | Get in Touch with Us</title>
+    <meta name="description" content="Have questions or need assistance? Contact WMS Product through our form, email, or phone. We're here to help.">
+    <link rel="stylesheet" href="/contact-page/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/features-page/features.html">Features</a></li>
+                    <li><a href="/pricing-page/pricing.html">Pricing</a></li>
+                    <li><a href="/support-page/support.html">Support</a></li>
+                    <li><a href="/about-us-page/about-us.html">About Us</a></li>
+                    <li><a href="/blog-page/blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions or need further assistance, please fill out the form below or contact us using the information provided.</p>
+            <form action="/php/contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <h3>Contact Information</h3>
+            <p>Email: <a href="mailto:support@example.com">support@example.com</a></p>
+            <p>Phone: +1 (123) 456-7890</p>
+            <p>Address: 123 Warehouse Lane, Logistics City, USA</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 WMS Product. All rights reserved.</p>
+            <p>Follow us: <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a></p>
+        </div>
+    </footer>
+</body>
+</html>
